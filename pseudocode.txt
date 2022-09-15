@@ -1,0 +1,25 @@
+PROGRAM OrderFood
+
+READ AND WRITE "pesan" with array
+READ AND WRITE "cukup" with boolean
+
+PRINT "Daftar makanan yang tersedia"
+WHILE "cukup"
+    READ AND WRITE "dipesan" with string
+    STORE "pesan" with "dipesan"
+
+
+    PRINT "Apakah sudah cukup ?"
+    READ AND WRITE "yakin" with boolean
+    IF "yakin" equal "true"
+        STORE "cukup" with "true"
+    ELSE
+        STORE "cukup" with "false"
+
+PRINT "Menampilkan metode pembayaran"
+
+READ AND WRITE "metode" with string
+
+PRINT "Menampilkan status dipesan"
+
+END
